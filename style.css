@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0e1a;
+  color: white;
+}
+
+.topbar {
+  padding: 16px;
+  text-align: center;
+  background: rgba(0,0,0,0.6);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #ff5fd2;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.game {
+  background: rgba(255,255,255,0.08);
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.game:hover {
+  background: rgba(255,95,210,0.2);
+}
+
+.product {
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.packs button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 14px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(45deg,#ff5fd2,#7f5bff);
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.6;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="topbar">Checkout</header>
+
+<section class="product">
+  <h2 id="summary"></h2>
+
+  <div class="packs">
+    <button onclick="pay('QRIS')">Bayar QRIS</button>
+    <button onclick="pay('Dana')">Dana</button>
+    <button onclick="pay('OVO')">OVO</button>
+  </div>
+
+  <p id="status"></p>
+</section>
+
+<script src="assets/checkout.js"></script>
+</body>
+</html>
